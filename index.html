@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashish's Resume and Bio-data</title>
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f9fb;
+            color: #333;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FF6347;
+            /* Tomato red */
+            color: #fff;
+            padding: 2.5em 0;
+            text-align: center;
+            border-bottom: 6px solid #FFEB3B;
+            /* Bright yellow accent */
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        header nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            padding: 5px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        header nav a:hover {
+            background-color: #FFEB3B;
+            /* Bright yellow */
+            color: #333;
+            transform: scale(1.1);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 30px;
+            background-color: #f4f9fb;
+        }
+
+        section {
+            width: 48%;
+            margin: 20px 0;
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-left: 6px solid #FF6347;
+            /* Tomato red accent */
+            transition: box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+            /* Enhanced hover shadow */
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        h3 {
+            color: #FF6347;
+            margin-bottom: 10px;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+
+        p,
+        ul {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            color: #34495e;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        ul li {
+            padding: 8px 0;
+            font-size: 1.1em;
+            color: #34495e;
+            transition: transform 0.3s ease;
+        }
+
+        ul li:hover {
+            transform: translateX(5px);
+            /* Slight slide effect on hover */
+        }
+
+        footer {
+            background-color: yellow;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        footer:hover {
+            background-color: #23e750;
+            /* Darker footer on hover */
+        }
+
+        footer p {
+            font-size: 1.2em;
+            letter-spacing: 1px;
+            margin-top: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            section {
+                width: 80%;
+                padding: 20px;
+            }
+
+            footer {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Rohan's Resume and Bio-data</h1>
+        <nav>
+            <a href="#resume">Resume</a>
+            <a href="#biodata">Bio-data</a>
+        </nav>
+    </header>
+
+    <!-- Container for Resume and Bio-data Sections -->
+    <div class="container">
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <h3>Professional Summary</h3>
+            <p>A highly motivated UX Designer and Flutter App Developer with a strong academic foundation in Computer
+                Science
+                and Engineering. Passionate about solving real-world challenges through innovative design and
+                technology.</p>
+
+            <h3>Work Experience</h3>
+            <ul>
+                <li>UX Designer at Equipment Parts Retailer - 2024</li>
+                <li>Freelance Flutter App Developer - 2023-Present</li>
+                <li>Web Development Intern, XYZ Company - 2022</li>
+            </ul>
+
+            <h3>Education</h3>
+            <ul>
+                <li>Bachelor's in Computer Science and Engineering - CMR Institute of Technology (2024)</li>
+                <li>+2 - Oxford Secondary Boarding School (2019)</li>
+            </ul>
+
+            <h3>Certifications</h3>
+            <ul>
+                <li>UX Design Foundations - Coursera (2023)</li>
+                <li>Flutter: Developing Cross-Platform Mobile Apps - Udemy (2023)</li>
+            </ul>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript, Dart</li>
+                <li>Flutter & Dart for mobile app development</li>
+                <li>UX/UI design principles</li>
+            </ul>
+        </section>
+
+        <!-- Bio-data Section -->
+        <section id="biodata">
+            <h2>Bio-data</h2>
+
+            <h3>Personal Details</h3>
+            <ul>
+                <li>Name: Rohan Lagarwar</li>
+                <li>Age: 21</li>
+                <li>Nationality: Nepali</li>
+                <li>Gender: Male</li>
+                <li>Address: Biratnagar, Nepal</li>
+                <li>Phone: +91 7260044371</li>
+                <li>Email: rohanlagarwar@gmail.com</li>
+            </ul>
+
+            <h3>Professional Summary</h3>
+            <p>A passionate UX Designer and Flutter App Developer, committed to creating intuitive user experiences. I
+                thrive on tackling challenges through design and technology.</p>
+
+            <h3>Educational Background</h3>
+            <ul>
+                <li>Bachelor's in Computer Science and Engineering - CMR Institute of Technology (2024)</li>
+                <li>+2 - Oxford Secondary Boarding School (2019)</li>
+            </ul>
+
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Photography</li>
+                <li>Traveling</li>
+                <li>Playing Chess</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Rohanlagarwar | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            alert("Welcome to Ro's Resume and Bio-data website!");
+        });
+    </script>
+
+</body>
+
+</html>
